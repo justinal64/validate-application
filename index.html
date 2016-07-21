@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This is an example of a comment -->
+    <title>Banking Form</title>
+    <link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+    <div class="content">
+        <form>
+            <div class="information">
+                <h3>First Name:</h3>
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <h3>Middle Initial:</h3>
+                <input type="text" name="middleInitial" maxlength="2" placeholder="Middle Inintial" required>
+                <h3>Last Name:</h3>
+                <input type="text" name="lastName" placeholder="Last Name" required>
+                <h3>Address:</h3>
+                <input type="text" name="address" placeholder="Address" required>
+                <h3>Occupation:</h3>
+                <input type="text" name="occupation" placeholder="Occupation" required>
+                <h3>Applicants Employer:</h3>
+                <input type="text" name="formerEmployeer" placeholder="Employer" required>
+                <h3>Loan Type</h3>
+                <select>
+                    <option>Commercial</option>
+                    <option>Real Estate</option>
+                    <option>Personal</option>
+                    <option>Mortgage</option>
+                </select>
+                <h3>Requested ammount of loan</h3>
+                <input type="text" name="" placeholder="Loan Ammount">
+                <h3>Loan Length</h3>
+                <input type="radio" name="5 Years" value="5 Years">
+                5 Years
+                <input type="radio" name="15 Years" value="15 Years">
+                15 Years
+                <input type="radio" name="30 Years" value="30 Years">
+                30 Years
+                <div class="conditions">
+                    <form>
+                        <h3>Special Conditions</h3>
+                        <input type="checkbox" name="vehicle"> I have a down payment<br>
+                        <input type="checkbox" name="vehicle"> Out of state resident<br>
+                        <input type="checkbox" name="vehicle"> Married<br>
+                        <input type="checkbox" name="vehicle"> Loan will be cosigned<br>
+                    </form>
+                </div>
+                <h3>Additional Information</h3>
+                <textarea placeholder="Additonal Information here."></textarea>
+                <h3>Email Address:</h3>
+                <input type="email" name="email" required>
+                <h3>Telephone Number:</h3>
+                <input type="tel" name="phone" required>
+                <h3>Linkedin URL:</h3>
+                <input type="url" name="" required>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
